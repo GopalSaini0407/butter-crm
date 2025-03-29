@@ -1,0 +1,92 @@
+// Here you can add other styles
+
+.accounts
+{
+    .card-body
+    {
+        overflow: scroll;
+    }
+    .left-account-detail
+    {
+        .briefcase
+        {
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            svg
+            {
+                width: 25px;
+                height: 25px;
+            }
+        }
+
+
+    }
+    
+}
+
+.leads
+{
+    th
+    {
+        text-wrap: nowrap;
+    }
+}
+.filter-check-text
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.itineresDesignOne .table
+{
+    border: none;
+    
+}
+
+
+.verification-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .verification-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .otp-input-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .otp-input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .otp-input:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 91, 187, 0.5);
+  }
+  
+  .text-body-secondary {
+    color: #6c757d;
+  }
+  
