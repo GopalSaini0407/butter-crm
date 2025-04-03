@@ -9,7 +9,7 @@ import './scss/style.scss'
 // We use those styles to show code examples, you should remove them in your application.
 import './scss/examples.scss'
 
-import PrivateComponent from './myComponents/PrivateComponet';
+// import PrivateComponent from './myComponents/PrivateComponet';
 // Containers
 const DefaultLayout = React.lazy(() => import('./layout/DefaultLayout'))
 
@@ -57,9 +57,9 @@ const App = () => {
            <Route exact path="/update-password" name="Update Password" element={<UpdatePassword/>}/>
           <Route exact path="/404" name="Page 404" element={<Page404 />} />
           <Route exact path="/500" name="Page 500" element={<Page500 />} />
-          <Route element={<PrivateComponent/>}>
+          {/* <Route element={<PrivateComponent/>}> */}
           <Route path="*" name="Home" element={<DefaultLayout />} />
-          </Route>
+          {/* </Route> */}
           
         </Routes>
       </Suspense>

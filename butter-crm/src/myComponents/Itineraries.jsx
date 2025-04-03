@@ -49,7 +49,7 @@ export default function Itineraries() {
         <div className='d-flex align-items-center justify-content-between'>
         <h3>Itineraries</h3>
         <button title='import PersonAccont'>
-          <Link to="/addCSV" className='text-white'><CIcon icon={cilFile} /></Link>
+          <Link to="/addCSV"><CIcon icon={cilFile} /></Link>
           </button>
         </div>
            <CRow>
@@ -59,7 +59,7 @@ export default function Itineraries() {
           <CCardHeader>
             <div className='d-flex align-items-center justify-content-between'>
               <div className="left-account-detail d-flex align-items-center">
-                <span className='briefcase bg-primary me-2'><CIcon icon={cilUser} /> </span>
+                <span className='briefcase bg-primary me-2 text-white'><CIcon icon={cilUser} /> </span>
                   <span>Itineraries Builder</span>
               </div>
               <div className="right-account-detail">

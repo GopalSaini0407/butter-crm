@@ -48,7 +48,7 @@ export default function Suppliers() {
           <CCardHeader>
             <div className='d-flex align-items-center justify-content-between'>
               <div className="left-account-detail d-flex aligh-items-center">
-                <span className='briefcase bg-primary me-2 mt-3'><FaUsers /></span>
+                <span className='briefcase bg-primary me-2 mt-3 text-white'><FaUsers /></span>
                 <div>
                   <span>Suppliers</span>
                   <CForm>
@@ -59,7 +59,7 @@ export default function Suppliers() {
                 </div>
               </div>
               <div className="right-account-detail d-flex align-items-center justify-content-center">
-               <span className='me-2 bg-secondary py-2 px-3 rounded-3'> <CIcon icon={cilLoopCircular} /> </span>
+               <span className='me-2 bg-secondary py-2 px-3 rounded-3 text-white'> <CIcon icon={cilLoopCircular} /> </span>
                <span className='px-2 me-2'><CIcon icon={cilFilter} /></span>
                <span>
                <CDropdown variant="nav-item list-style-none">
